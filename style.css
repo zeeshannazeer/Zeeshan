@@ -5,7 +5,7 @@ body{
 }
 @font-face{
     font-family: Aksara;
-   src: url('Aksara.ttf');
+   src: url('aksarabaligalang-regular\ \(3\).ttf');
 }
 @font-face{
     font-family: Futura PT;
@@ -56,7 +56,7 @@ body{
 }
 .TurningTxt{
     font-family: Futura PT;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 37px;
     line-height: 48px;
     color: #131821;
@@ -75,10 +75,15 @@ body{
     align-items: center;
     gap: 53px;
     font-family: Future PTLight;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     color: #131821;
+    cursor: pointer;
 }
+.GPFTxt p:hover {
+    color: #4D47C8; 
+    cursor: pointer;
+  }
 .Login{
     background: linear-gradient(90deg, #5680E9 0%, #4D47C8 100%);
      border-radius: 32px;
@@ -116,7 +121,7 @@ body{
     /* height: 32px; */
     padding-top: 40px;
     font-family: Future PTLight;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -259,7 +264,7 @@ body{
     width: 515px;
     height: 260px;
     font-family: 'Future PTLight', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size:22px;
     line-height: 31.7px;
     color: #4C586F;
@@ -288,7 +293,7 @@ body{
 .paragraph{
     width: 550px;
     font-family: 'Future PTLight', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size:24.5px;
     color: #4C586F;
     margin: 0px;
@@ -299,7 +304,7 @@ body{
 .paragraph1{
     width: 550px;
     font-family: 'Future PTLight', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size:23.06px;
     color: #4C586F;
     margin: 0px;
@@ -397,4 +402,452 @@ body{
     padding-top: 5px;
     padding-bottom: 54px;
 }
+.MainofOptimizing{
+    margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.ContainerOfOptimizing{
+    width: 1110px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.Optimization{
+    width: 100%;
+    height: 280px;
+    background-image: url('Exporting.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+}
 
+.StartOptimizingTXT{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+    margin-left: 165px;
+    text-align: left;
+}
+#StartOptimizingBtn{
+  width: 193px;
+  height: 60px;
+  padding: 14px 32px;
+  background-color: white;
+  color: #5680E9;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 100px;
+  border-radius: 30px;
+  
+}
+.Benefit{
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 48px;
+    color: black;
+    padding-bottom: 100px;
+    
+}
+
+.main-Install{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    
+    
+}
+.Install{
+     background: linear-gradient(147.95deg, #EBEEF6 14.45%, rgba(235, 238, 246, 0) 80.75%);
+     background-repeat: no-repeat;
+    width: 350px;
+    height: 302px;
+    border-radius: 16px;
+}
+.InstallSVG{
+ padding-top: 30px;
+ padding-left: 25px;
+ 
+}
+.installHeading{
+    margin-top: 4px;
+    padding-left: 25px;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 500;
+    line-height: 38px;
+    color: #131821;
+}
+.installpara{
+    padding-left: 25px;
+    padding-top: 8px;
+    font-size: 22px;
+    /* font-family: 'Future PTLight', sans-serif; */
+    font-family: Future PTLight;
+    font-weight: 500;
+    line-height: 32px;
+    color:#4C586F;
+}
+.Pricing{
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 48px;
+    color: black;
+    padding-bottom: 104px;
+    padding-top: 90px;
+}
+.basicAndProfessional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Basic{
+     background: linear-gradient(147.95deg, #EBEEF6 14.45%, rgba(235, 238, 246, 0.6) 80.75%);
+     width: 352px;
+     height: 588px;
+     background-repeat: no-repeat;
+     border-radius: 16px;
+}
+.Professional{
+    background: #5680E9;
+    width: 352px;
+    height: 588px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    box-shadow: 0px 15px 28px 0px #1B4CC726;
+
+}
+.Basictxt{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 38px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+.freetxt{
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 38px;
+    color: #5680E9;
+    text-align: center;
+    padding-top: 12px;
+}
+.free-plantxt{
+    font-size: 22px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    color: #131821;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 1em;
+  }
+
+  ul.dotted-list li:before {
+    content: "•";
+    color: #4C586F;
+    margin-right: 0.5em;
+   
+  }
+  .list{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   font-size: 22px;
+   font-family: 'Future PTLight', sans-serif;
+   font-weight: 500;
+   line-height: 32px;
+   color: #4C586F;
+  }
+#StartOptimizingBtn1{
+  width: 228px;
+  height: 64px;
+  padding: 14px 32px;
+  background: linear-gradient(90deg, #5680E9 0%, #4D47C8 100%);
+  color: white;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 60px;
+  border-radius: 30px;
+  margin-top: -5px;
+  
+}
+.Professionaltxt{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 38px;
+    color: #BEE8F8;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1.4px;
+}
+.Monthly-payment{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  padding-top: 15px;
+  
+}
+.fifty-Doller{
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    /* font-family: Aksara; */
+    font-weight: bolder;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.month-txt{
+    font-size: 24px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: end;
+    padding-top: 25px;
+}
+.individual{
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #BEE8F8;
+    padding-top: 17px;
+    padding-bottom: 30px;
+}
+.list1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   font-size: 22px;
+   font-family: 'Future PTLight', sans-serif;
+   font-weight: 500;
+   line-height: 32px;
+   color: #BEE8F8;
+  }
+  #StartOptimizingBtn2{
+    width: 228px;
+    height: 64px;
+    padding: 14px 32px;
+    background-color: #FFFFFF;
+    color: #5680E9;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 60px;
+    border-radius: 30px;
+    margin-top: -5px;
+    
+  }
+  .Customer-Review{
+     background-image: url('reviewbg.png');
+     background-repeat: no-repeat;
+    width: 1110px;
+    height: 731px;
+    margin-top: 100px;
+    border-radius: 16px;
+   
+  }
+  .Customer-ReviewTxt{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    text-align: center;
+  }
+  .Highly-Recommended{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+
+  }
+ .Highly-Recommended1{
+background-color: white;
+width: 488px;
+height: 371px;
+border-radius: 16px;
+  }
+   .dark{
+     margin-left: -40px;
+  }
+  .blue{
+   margin-right: -40px;
+  } 
+
+  .Highly-Recommended2{
+    background-color: white;
+    width: 488px;
+    height: 371px;
+    border-radius: 16px;
+    position: relative;
+      }
+      .star{
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+ .Highly-RecommendedHeading{
+     font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 20px;
+      }
+
+      .Highly-Recommendedparagraph{
+        font-size: 22px;
+        font-family: 'Future PTLight', sans-serif;
+        font-weight: 500;
+        line-height: 34px;
+        color: #4C586F;
+        padding-left: 20px;
+        padding-top: 25px;
+        padding-right: 55px;
+      }
+      .CHRISDetail{
+        padding-top: 20px;
+        padding-left: 21px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 23px;
+      }
+
+      .CHRISHeading{
+        font-size: 24px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-weight: 700;
+        line-height: 32px;
+        color: #131821;
+      }
+      .CHRISparagraph{
+        font-size: 18px;
+        font-family: 'Future PTLight', sans-serif;
+        font-weight: 600;
+        line-height: 32px;
+        color: #4C586F;
+        letter-spacing: 0.4px;
+      }
+      .DottedSvg{
+        margin-top: -23px;
+        /* padding-top: 0px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-bottom: 60px; */
+      }
+      .Footer{
+        background-image: url('Footerbg.png');
+        width:1326px;
+        height: 259px;
+      }
+    
+      .helpfultxt{
+        font-size: 22px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-weight: 500;
+        line-height: 38px;
+        color: #131821;
+      }
+      .FooterMain{
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        gap: 210px;
+        padding-left: 60px;
+        padding-top: 95px;
+      }
+      .helpfulHeading{
+        font-size: 22px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-weight: 500;
+        line-height: 38px;
+        color: #131821;
+        padding-bottom: 13px;
+      }
+      .HelpFul{
+        margin-top: -15px;
+        
+      }
+      .Policies{
+        margin-left: 40px;
+        margin-top: -15px;
+      }
+
+      .PoliciesHeading{
+        font-size: 22px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-weight: 500;
+        line-height: 38px;
+        color: #131821;
+        padding-bottom: 13px;
+        letter-spacing: 0.6px;
+        word-spacing: 0.4px;
+        /* margin-bottom: 100px; */
+      }
+      .HelpfulParagraph{
+        margin-top: 10px;
+      }
+      .PoliciesParagraph{
+        margin-top: 10px;
+      }
+
+    .loginpara{
+        font-size: 20px;
+        font-family: 'Future PTLight', sans-serif;
+        font-weight: 500;
+        line-height: 32px;
+        color: #131821;
+        /* margin-top: 10px; */
+    }
+    .HelpFul{
+        text-align: left;
+    }
+    .Policies{
+        text-align: left;
+    }
+    .Apps{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding-top: 27px;
+        /* margin-left: px; */
+    }
