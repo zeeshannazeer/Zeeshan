@@ -183,6 +183,7 @@ body {
 #laptop {
     width: 686px;
     height: 435px;
+    /* transform: rotate(180deg); */
 }
 
 .laptoptxt {
@@ -202,13 +203,13 @@ body {
     font-size: large;
 }
 
-.image-container {
+.image-container10 {
     position: relative;
     width: 686px;
     height: 410px;
 }
 
-.background-image {
+.background-image10 {
     width: 100%;
     height: 100%;
     object-fit: cover;
