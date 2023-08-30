@@ -2515,13 +2515,7 @@ ul.dotted-list li:before {
    
 }
 
-.Highly-Recommended {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 65px;
-  
-}
+
 
 .Highly-Recommended1 {
     width: 300px;
@@ -2667,7 +2661,7 @@ ul.dotted-list li:before {
 }
 
   }
-   @media screen and (max-width: 680px) {
+   @media screen and (max-width: 400px) {
 
     .color {
         max-width: 400px;
@@ -2698,7 +2692,7 @@ ul.dotted-list li:before {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 19px;
         margin-left: 15px;
     }
     .TurningSeoIMG{
@@ -2831,7 +2825,7 @@ ul.dotted-list li:before {
         font-weight: 400;
         font-size: 22px;
         line-height: 40px;
-        padding-top: 90px;
+        padding-top: 150px;
         padding-bottom: 20px;
         text-align: center;
     }
@@ -3195,8 +3189,8 @@ ul.dotted-list li:before {
 }
 
 .Customer-ReviewTxt {
-    padding-top: 45px;
-    padding-bottom: 95px;
+    padding-top: 25px;
+    padding-bottom: 45px;
     font-size: 42px;
     font-weight: 400;
     text-align: center;
@@ -3207,7 +3201,7 @@ ul.dotted-list li:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 65px;
+    gap: 25px;
   
 }
 
@@ -3273,7 +3267,8 @@ ul.dotted-list li:before {
     letter-spacing: 0.4px;
 }
 .DottedSvg {
-    margin-top: 210px;
+    margin-top: 120px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
