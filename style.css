@@ -2289,6 +2289,7 @@ ul.dotted-list li:before {
     letter-spacing: 1px;
     word-spacing: 1px;
     text-align: left;
+    margin-top: 0px;
    margin-bottom: -100px;
 }
 
@@ -2382,6 +2383,9 @@ ul.dotted-list li:before {
     padding-top: 40px;
 }
 
+.LinkCleaner{
+    margin-top: -25px;
+}
 .LinkCleaner1 {
     margin-left: -30px;
 }
@@ -2661,7 +2665,7 @@ ul.dotted-list li:before {
 }
 
   }
-   @media screen and (max-width: 400px) {
+   @media screen and (max-width: 430px) {
 
     .color {
         max-width: 400px;
@@ -2711,8 +2715,8 @@ ul.dotted-list li:before {
         margin-right: 30px;
     }
     #Hamburger{
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
     }
     .GPFTxtAndLOGIN{
         display: none;
@@ -2743,17 +2747,17 @@ ul.dotted-list li:before {
     }
 
     .Get {
-        max-width: 155px;
+        max-width: 125px;
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 155px;
-        height: 45px;
+        width: 125px;
+        height: 37px;
         border-radius: 32px;
         margin-top: 40px;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 11px;
     }
 
 
@@ -2764,16 +2768,16 @@ ul.dotted-list li:before {
         align-items: center;
         margin: 0;
         padding: 0;
-        padding-top: 90px;
+        padding-top: 50px;
         padding-left: 0px;
-        gap: 35px;
+        gap: 5px;
         margin-left: 0px;
         
     }
     
     #laptop {
-        width: 280px;
-        height: 170px;
+        width: 270px;
+        height: 165px;
         margin: 0px;
         padding: 0px;
        
@@ -2787,6 +2791,7 @@ ul.dotted-list li:before {
         line-height: 28px;
         margin: 0;
         padding: 0;
+        margin-top: -70px;
         
     }
     
@@ -2821,11 +2826,11 @@ ul.dotted-list li:before {
 
 
     .Bulk {
-        width: 280px;
+        width: 270px;
         font-weight: 400;
         font-size: 22px;
         line-height: 40px;
-        padding-top: 150px;
+        padding-top: 160px;
         padding-bottom: 20px;
         text-align: center;
     }
@@ -2841,8 +2846,8 @@ ul.dotted-list li:before {
     gap: 25px;
 }
 #InternalLinkingIMG {
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 165px;
 }
 .LinkMain {
     display: flex;
@@ -2861,16 +2866,17 @@ ul.dotted-list li:before {
 }
 
 .Linkpara {
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 165px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     color: #4C586F;
     display: flex;
     justify-content: center;
     text-align: left;
-    padding-top: 5px;
+    padding-top: 0px;
+    margin-top: -5px;
     padding-bottom: 54px;
 }
 
@@ -2880,31 +2886,33 @@ ul.dotted-list li:before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding-top: 30px;
+    gap: 0px;
+    padding-top: 20px;
 }
 
 #link-Noormalization {
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 165px;
+    margin-top: -20px;
 }
 
 .Linkpara1 {
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 165px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     display: flex;
     justify-content: center;
     text-align: left;
-    padding-top: 5px;
+    padding-top: 0px;
+    margin-top: -6px;
     padding-bottom: 54px;
 }
 
 #link-Noormalization1 {
-    width: 280px;
-    height: 170px;
+    width: 270px;
+    height: 165px;
     opacity: 0.4;
 }
 
@@ -2915,7 +2923,7 @@ ul.dotted-list li:before {
     align-items: center;
     text-align: center;
     gap: 33px;
-    padding-top: 90px;
+    padding-top: 20px;
 }
 
 .direct-cleaner12 {
@@ -2963,7 +2971,7 @@ ul.dotted-list li:before {
     align-items: center;
     gap: 70px;
     padding-top: 0px;
-    margin-top: -60px;
+    margin-top: -90px;
 }
 
 #link-Noormalization2 {
@@ -3034,12 +3042,13 @@ ul.dotted-list li:before {
 
 .LinkCleaner1 {
     margin-left: -30px;
+    margin-top: -40px;
 }
 #Track-Undo-IMG {
-    width: 270px;
+    width: 263px;
     height: 170px;
-    margin-left: 0px;
-    margin-top: 20px;
+    margin-left: -24.5px;
+    margin-top: -30px;
 }
 .LinkHeading1{
     font-weight: 400;
@@ -3057,12 +3066,14 @@ ul.dotted-list li:before {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    line-height: 33.7px;
+    line-height: 28px;
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 0px;
+    margin-top: -11px;
     padding-bottom: 54px;
     margin-left: 27px;
+    margin-top: -26px;
    
 }
 
@@ -3073,6 +3084,7 @@ ul.dotted-list li:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -130px;
     
 
 }
@@ -3120,15 +3132,23 @@ ul.dotted-list li:before {
 }
 
 #StartOptimizingBtn {
-    width: 193px;
-    height: 60px;
+    width: 163px;
+    height: 50px;
     padding: 14px 32px;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     border: none;
     margin-left: 0px;
     border-radius: 30px;
     margin-top: -10px;
+}
+.Benefit {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 20px;
+    margin-top: -75px;
+
 }
 .main-Install {
     display: flex;
@@ -3158,13 +3178,23 @@ ul.dotted-list li:before {
 
 }
 #StartOptimizingBtn1 {
-    margin-left: 36px;
+    margin-left: 50px;
+    width: 180px;
+    height: 54px;
+    font-size: 16px;
 }
 #StartOptimizingBtn2 {
-   margin-left: 30px;
-
-  
-
+   margin-left: 50px;
+   width: 180px;
+    height: 54px;
+    font-size: 16px;
+}
+.Pricing {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 20px;
+    margin-top: -75px;
 }
 .Highly-Recommended {
     display: flex;
@@ -3191,7 +3221,7 @@ ul.dotted-list li:before {
 .Customer-ReviewTxt {
     padding-top: 25px;
     padding-bottom: 45px;
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 400;
     text-align: center;
    
@@ -3207,16 +3237,18 @@ ul.dotted-list li:before {
 
 .Highly-Recommended1 {
     width: 290px;
-    height: 290px;
+    height: 330px;
     border-radius: 16px;
 }
 
 .dark {
     margin-left: -40px;
+    margin-top: 20px;
 }
 
 .blue {
-    margin-right: -40px;
+    margin-right: 16px;
+    margin-top: 20px;
 }
 .Highly-Recommended2 {
     width: 290px;
@@ -3302,6 +3334,7 @@ ul.dotted-list li:before {
 .Policies {
     margin-left: 0px;
     margin-top: -15px;
+ 
 }
 
 .PoliciesHeading {
@@ -3344,8 +3377,9 @@ ul.dotted-list li:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     padding-top: 27px;
+    margin-left: 16px;
 
 }
 
