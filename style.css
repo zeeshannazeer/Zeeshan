@@ -809,7 +809,6 @@ ul.dotted-list li:before {
 }
 
 .blue {
-
     margin-right: -40px;
     transform: scaleX(-1);
 }
@@ -820,9 +819,7 @@ ul.dotted-list li:before {
 }
 
 .blue:hover img {
-    /* background: blue; */
     cursor: pointer;
-    /* color: #4D47C8; */
     transform: scaleX(-1);
 }
 
@@ -831,7 +828,7 @@ ul.dotted-list li:before {
 .image-container {
     position: relative;
     display: inline-block;
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
 }
 
 .hover-image {
@@ -846,7 +843,7 @@ ul.dotted-list li:before {
 }
 
 .original-image:hover {
-    opacity: 0; /* Optional: Hide the original image on hover */
+    opacity: 0; 
 }
 
 
