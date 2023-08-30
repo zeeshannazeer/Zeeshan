@@ -1,60 +1,71 @@
-body{
-   margin: 0px;
-   padding: 0px;
-  
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
 }
-@font-face{
+
+@font-face {
     font-family: Aksara;
-   src: url('aksarabaligalang-regular\ \(3\).ttf');
+    src: url('aksarabaligalang-regular\ \(3\).ttf');
 }
-@font-face{
+
+@font-face {
     font-family: Futura PT;
-    src: url('FuturaPTMedium.otf'); 
+    src: url('FuturaPTMedium.otf');
 }
-@font-face{
+
+@font-face {
     font-family: Future PTLight;
     src: url('futura-pt-light.otf');
 }
 
-@font-face{
-    font-family:AKG;
+@font-face {
+    font-family: AKG;
     src: url('Aksara\ Bali\ Galang\ Regular.ttf');
 }
-.bg1{
+
+.bg1 {
     background: linear-gradient(to bottom, #E8EAF4 0%, #FEFEFE 100%);
     width: 100%;
     margin: auto;
 }
-.color{
+
+.color {
     max-width: 1150px;
     margin: auto;
 }
-.parentNav{
- max-width: 1150px;
- margin: auto;
+
+.parentNav {
+    max-width: 1150px;
+    margin: auto;
 }
-.parent{
+
+.parent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.Nav{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  gap: 110px;
-  padding-top: 23px;
- 
+
+.Nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 110px;
+    padding-top: 23px;
+
 }
-.TuringSEOAndIMG{
+
+.TuringSEOAndIMG {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 11px;
     margin-left: 50px;
 }
-.TurningTxt{
+
+.TurningTxt {
     font-family: Futura PT;
     font-weight: 500;
     font-size: 37px;
@@ -62,14 +73,18 @@ body{
     color: #131821;
     letter-spacing: 1.6px;
 }
-.GPFTxtAndLOGIN{
+.Hamburger{
+    display: none;
+}
+.GPFTxtAndLOGIN {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 186px;
     margin-left: 88px;
 }
-.GPFTxt{
+
+.GPFTxt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,16 +95,19 @@ body{
     color: #131821;
     cursor: pointer;
 }
+
 .GPFTxt p:hover {
-    color: #4D47C8; 
+    color: #4D47C8;
     cursor: pointer;
-  }
-.Login{
+}
+
+.Login {
     background: linear-gradient(90deg, #5680E9 0%, #4D47C8 100%);
-     border-radius: 32px;
+    border-radius: 32px;
     padding: 4px 28px 6px 28px;
 }
-#Login{
+
+#Login {
     border: none;
     color: rgb(248, 242, 242);
     background: none;
@@ -103,22 +121,22 @@ body{
     word-spacing: .6px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.FixingSeo{
+
+.FixingSeo {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     line-height: 80px;
     padding-top: 80px;
-    /* padding-left: 60px; */
-   font-family: 'Noto Sans Shavian', sans-serif;
-   font-size: 62px;
-   font-weight: 500;
-   line-height: 80px;
+
+    font-family: 'Noto Sans Shavian', sans-serif;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 80px;
 }
-.finally-wordpress{
-   
-    /* height: 32px; */
+
+.finally-wordpress {
     padding-top: 40px;
     font-family: Future PTLight;
     font-weight: 500;
@@ -129,9 +147,10 @@ body{
     text-align: center;
     margin-right: 0;
     color: #4C586F;
-    
+
 }
-.Get{
+
+.Get {
     max-width: 225px;
     margin: auto;
     display: flex;
@@ -140,20 +159,19 @@ body{
     width: 225px;
     height: 60px;
     background: linear-gradient(90deg, #5680E9 0%, #4D47C8 100%);
-     border-radius: 32px;
-     margin-top: 40px;
-     border: none;
-     color: rgb(248, 242, 242);
-     font-weight: 400;
-     font-size: 18px;
-     cursor: pointer;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     /* margin-left: 55px; */
-}
-#Get{
+    border-radius: 32px;
+    margin-top: 40px;
+    border: none;
+    color: rgb(248, 242, 242);
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: 55px; */
 }
 
-.laptopAndTXT{
+
+.laptopAndTXT {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,11 +179,13 @@ body{
     gap: 35px;
     margin-left: -20px;
 }
-#laptop{
+
+#laptop {
     width: 686px;
     height: 435px;
 }
-.laptoptxt{
+
+.laptoptxt {
     width: 445px;
     height: 352px;
     /* font-family: Aksara; */
@@ -177,31 +197,36 @@ body{
     color: #4C586F;
 }
 
+.Strong-SEO {
+    color: #4C586F;
+    font-size: large;
+}
 
 .image-container {
     position: relative;
-    width: 686px; 
-    height: 410px; 
+    width: 686px;
+    height: 410px;
 }
 
 .background-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .overlay-image {
     position: absolute;
     top: 133px;
     left: 290px;
-    width: 100px; 
+    width: 100px;
     height: 100px;
 }
-.Bulk{
+
+.Bulk {
     font-family: Aksara;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    font-size:48px;
+    font-size: 48px;
     line-height: 60px;
     color-scheme: #131821;
     padding-top: 90px;
@@ -209,35 +234,46 @@ body{
 }
 
 
-.LinkMain{
+.LinkMain {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 65px;
 }
-.LinkMain{
-   display: flex;
-  margin-left: 15px;
+
+.LinkMain {
+    display: flex;
+    margin-left: 15px;
 }
-.LinkHeading{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+
+.LinkHeading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    font-size:24px;
+    font-size: 24px;
     line-height: 38px;
     color-scheme: #131821;
     display: flex;
     justify-content: left;
     margin-top: -10px;
 }
-
-.Linkpara{
+.LinkHeading1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color-scheme: #131821;
+    display: flex;
+    justify-content: left;
+    margin-top: -10px;
+}
+.Linkpara {
     width: 530px;
     height: 260px;
     font-family: 'Future PTLight', sans-serif;
     /* font-family: Futura PT; */
     font-weight: 500;
-    font-size:22px;
+    font-size: 22px;
     line-height: 32.7px;
     color: #4C586F;
     display: flex;
@@ -248,7 +284,7 @@ body{
 }
 
 
-.LinkMain1{
+.LinkMain1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,16 +292,18 @@ body{
     gap: 70px;
     padding-top: 90px;
 }
-#link-Noormalization{
+
+#link-Noormalization {
     width: 502px;
     height: 398px;
 }
-.Linkpara1{
+
+.Linkpara1 {
     width: 515px;
     height: 260px;
     font-family: 'Future PTLight', sans-serif;
     font-weight: 500;
-    font-size:22px;
+    font-size: 22px;
     line-height: 31.7px;
     color: #4C586F;
     display: flex;
@@ -274,13 +312,14 @@ body{
     padding-top: 5px;
     padding-bottom: 54px;
 }
-#link-Noormalization1{
+
+#link-Noormalization1 {
     width: 502px;
     height: 398px;
     opacity: 0.4;
 }
 
-.direct-cleaner{
+.direct-cleaner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,23 +328,34 @@ body{
     padding-top: 90px;
 }
 
+.direct-cleaner12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 160px;
+    padding-top: 90px;
+}
 
-.paragraph{
-    width: 550px;
+.paragraph {
+    width: 540px;
     font-family: 'Future PTLight', sans-serif;
     font-weight: 500;
-    font-size:24.5px;
+    font-size: 22px;
     color: #4C586F;
     margin: 0px;
     padding: 0px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     text-align: left;
     margin-bottom: 15px;
 }
-.paragraph1{
+
+.paragraph1 {
     width: 550px;
     font-family: 'Future PTLight', sans-serif;
     font-weight: 500;
-    font-size:23.06px;
+    font-size: 22px;
     color: #4C586F;
     margin: 0px;
     padding: 0px;
@@ -314,7 +364,7 @@ body{
     text-align: left;
 }
 
-.LinkMain2{
+.LinkMain2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +373,7 @@ body{
     padding-top: 90px;
 }
 
-#link-Noormalization2{
+#link-Noormalization2 {
     width: 502px;
     height: 430px;
     margin-top: -120px;
@@ -331,27 +381,28 @@ body{
 
 .image-container1 {
     position: relative;
-    width: 302px; 
+    width: 302px;
     height: 398px;
     top: 13px;
     left: -89px;
 }
+
 .background-image1 {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .overlay-image1 {
     position: absolute;
     top: 13px;
     left: 48px;
-    width: 502px; 
+    width: 502px;
     height: 398px;
 }
 
 
-.bgAndFrontpage{
+.bgAndFrontpage {
     margin-left: 100px;
 }
 
@@ -359,13 +410,13 @@ body{
     position: relative;
     width: 510px;
     height: 430px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .background-image1 {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     opacity: 0.5;
 }
 
@@ -376,24 +427,38 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 16px;
-    object-fit: cover; 
+    object-fit: cover;
 }
-.direct-cleaner1{
+
+.direct-cleaner1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 90px;
 }
-.LinkCleaner1{
+
+.LinkCleaner1 {
     margin-left: -100px;
 }
-.Linkpara2{
+
+.Track-Undo-IMG {
+    /* margin-left: -40px; */
+
+}
+
+#Track-Undo-IMG {
+    width: 510px;
+    height: 430px;
+    margin-left: -40px;
+}
+
+.Linkpara2 {
     width: 510px;
     height: 260px;
     font-family: 'Future PTLight', sans-serif;
     font-weight: 500;
-    font-size:22px;
+    font-size: 22px;
     line-height: 33.7px;
     color: #4C586F;
     display: flex;
@@ -402,21 +467,26 @@ body{
     padding-top: 5px;
     padding-bottom: 54px;
 }
-.MainofOptimizing{
-    margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
+#Opt{
+    display: none;
 }
-.ContainerOfOptimizing{
+.MainofOptimizing {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ContainerOfOptimizing {
     width: 1110px;
     margin-top: 95px;
     margin-bottom: 100px;
     position: relative;
 }
-.Optimization{
+
+.Optimization {
     width: 100%;
     height: 280px;
     background-image: url('Exporting.png');
@@ -431,70 +501,74 @@ body{
     gap: 0px;
 }
 
-.StartOptimizingTXT{
+.StartOptimizingTXT {
     font-size: 32px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 48px;
     color: white;
     margin-left: 165px;
     text-align: left;
 }
-#StartOptimizingBtn{
-  width: 193px;
-  height: 60px;
-  padding: 14px 32px;
-  background-color: white;
-  color: #5680E9;
-  font-size: 20px;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-  margin-left: 100px;
-  border-radius: 30px;
-  
+
+#StartOptimizingBtn {
+    width: 193px;
+    height: 60px;
+    padding: 14px 32px;
+    background-color: white;
+    color: #5680E9;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 30px;
+
 }
-.Benefit{
+
+.Benefit {
     font-size: 48px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 48px;
     color: black;
     padding-bottom: 100px;
-    
+
 }
 
-.main-Install{
+.main-Install {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 30px;
-    
-    
 }
-.Install{
-     background: linear-gradient(147.95deg, #EBEEF6 14.45%, rgba(235, 238, 246, 0) 80.75%);
-     background-repeat: no-repeat;
+
+.Install {
+    background: linear-gradient(147.95deg, #EBEEF6 14.45%, rgba(235, 238, 246, 0) 80.75%);
+    background-repeat: no-repeat;
     width: 350px;
     height: 302px;
     border-radius: 16px;
 }
-.InstallSVG{
- padding-top: 30px;
- padding-left: 25px;
- 
+
+.InstallSVG {
+    padding-top: 30px;
+    padding-left: 25px;
+
 }
-.installHeading{
+
+.installHeading {
     margin-top: 4px;
     padding-left: 25px;
     font-size: 24px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     line-height: 38px;
     color: #131821;
 }
-.installpara{
+
+.installpara {
     padding-left: 25px;
     padding-top: 8px;
     font-size: 22px;
@@ -502,31 +576,35 @@ body{
     font-family: Future PTLight;
     font-weight: 500;
     line-height: 32px;
-    color:#4C586F;
+    color: #4C586F;
 }
-.Pricing{
+
+.Pricing {
     font-size: 48px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 48px;
     color: black;
     padding-bottom: 104px;
     padding-top: 90px;
 }
-.basicAndProfessional{
+
+.basicAndProfessional {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.Basic{
-     background: linear-gradient(147.95deg, #EBEEF6 14.45%, rgba(235, 238, 246, 0.6) 80.75%);
-     width: 352px;
-     height: 588px;
-     background-repeat: no-repeat;
-     border-radius: 16px;
+
+.Basic {
+    background: linear-gradient(147.95deg, #EBEEF6 14.45%, rgba(235, 238, 246, 0.6) 80.75%);
+    width: 352px;
+    height: 588px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
 }
-.Professional{
+
+.Professional {
     background: #5680E9;
     width: 352px;
     height: 588px;
@@ -535,25 +613,28 @@ body{
     box-shadow: 0px 15px 28px 0px #1B4CC726;
 
 }
-.Basictxt{
+
+.Basictxt {
     font-size: 24px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 38px;
     color: black;
     text-align: center;
     padding-top: 30px;
 }
-.freetxt{
+
+.freetxt {
     font-size: 48px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 38px;
     color: #5680E9;
     text-align: center;
     padding-top: 12px;
 }
-.free-plantxt{
+
+.free-plantxt {
     font-size: 22px;
     font-family: 'Future PTLight', sans-serif;
     font-weight: 600;
@@ -563,48 +644,52 @@ body{
     padding-top: 35px;
     padding-bottom: 25px;
 }
+
 ul {
     list-style-type: none;
     padding-left: 1em;
-  }
+}
 
-  ul.dotted-list li:before {
+ul.dotted-list li:before {
     content: "•";
     color: #4C586F;
     margin-right: 0.5em;
-   
-  }
-  .list{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: left;
-   font-size: 22px;
-   font-family: 'Future PTLight', sans-serif;
-   font-weight: 500;
-   line-height: 32px;
-   color: #4C586F;
-  }
-#StartOptimizingBtn1{
-  width: 228px;
-  height: 64px;
-  padding: 14px 32px;
-  background: linear-gradient(90deg, #5680E9 0%, #4D47C8 100%);
-  color: white;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-  font-weight: 400;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-  margin-left: 60px;
-  border-radius: 30px;
-  margin-top: -5px;
-  
+
 }
-.Professionaltxt{
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #4C586F;
+}
+
+#StartOptimizingBtn1 {
+    width: 228px;
+    height: 64px;
+    padding: 14px 32px;
+    background: linear-gradient(90deg, #5680E9 0%, #4D47C8 100%);
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 60px;
+    border-radius: 30px;
+    margin-top: -5px;
+
+}
+
+.Professionaltxt {
     font-size: 24px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 38px;
     color: #BEE8F8;
@@ -612,22 +697,25 @@ ul {
     padding-top: 30px;
     letter-spacing: 1.4px;
 }
-.Monthly-payment{
+
+.Monthly-payment {
     display: flex;
-   justify-content: center;
-   align-items: center;
-  padding-top: 15px;
-  
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
 }
-.fifty-Doller{
+
+.fifty-Doller {
     font-size: 48px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font-family: Aksara; */
     font-weight: bolder;
     line-height: 32px;
     color: #FFFFFF;
 }
-.month-txt{
+
+.month-txt {
     font-size: 24px;
     font-family: 'Future PTLight', sans-serif;
     font-weight: 500;
@@ -636,7 +724,8 @@ ul {
     text-align: end;
     padding-top: 25px;
 }
-.individual{
+
+.individual {
     font-family: 'Future PTLight', sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -646,25 +735,27 @@ ul {
     padding-top: 17px;
     padding-bottom: 30px;
 }
-.list1{
+
+.list1 {
     display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: left;
-   font-size: 22px;
-   font-family: 'Future PTLight', sans-serif;
-   font-weight: 500;
-   line-height: 32px;
-   color: #BEE8F8;
-  }
-  #StartOptimizingBtn2{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #BEE8F8;
+}
+
+#StartOptimizingBtn2 {
     width: 228px;
     height: 64px;
     padding: 14px 32px;
     background-color: #FFFFFF;
     color: #5680E9;
     font-size: 22px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     text-align: center;
     border: none;
@@ -672,182 +763,2595 @@ ul {
     margin-left: 60px;
     border-radius: 30px;
     margin-top: -5px;
-    
-  }
-  .Customer-Review{
-     background-image: url('reviewbg.png');
-     background-repeat: no-repeat;
+  
+
+}
+
+.Customer-Review {
+    background-image: url('reviewbg.png');
+    background-repeat: no-repeat;
     width: 1110px;
     height: 731px;
     margin-top: 100px;
     border-radius: 16px;
-   
-  }
-  .Customer-ReviewTxt{
+
+}
+
+.Customer-ReviewTxt {
     padding-top: 95px;
     padding-bottom: 95px;
     font-size: 48px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     text-align: center;
-  }
-  .Highly-Recommended{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 25px;
+}
 
-  }
- .Highly-Recommended1{
-background-color: white;
-width: 488px;
-height: 371px;
-border-radius: 16px;
-  }
-   .dark{
-     margin-left: -40px;
-  }
-  .blue{
-   margin-right: -40px;
-  } 
+.Highly-Recommended {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 
-  .Highly-Recommended2{
+}
+
+.Highly-Recommended1 {
+    background-color: white;
+    width: 488px;
+    height: 371px;
+    border-radius: 16px;
+}
+
+.dark {
+    margin-left: -40px;
+
+}
+
+.blue {
+
+    margin-right: -40px;
+    transform: scaleX(-1);
+}
+
+
+.blue img {
+    transition: color 0.3s ease, cursor 0.3s ease;
+}
+
+.blue:hover img {
+    background: blue;
+    cursor: pointer;
+    color: #4D47C8;
+}
+
+.Highly-Recommended2 {
     background-color: white;
     width: 488px;
     height: 371px;
     border-radius: 16px;
     position: relative;
-      }
-      .star{
-        padding-top: 20px;
-        padding-left: 20px;
-      }
- .Highly-RecommendedHeading{
-     font-size: 24px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.star {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.Highly-RecommendedHeading {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 38px;
     text-align: left;
     padding-left: 20px;
-      }
+}
 
-      .Highly-Recommendedparagraph{
-        font-size: 22px;
-        font-family: 'Future PTLight', sans-serif;
+.Highly-Recommendedparagraph {
+    font-size: 22px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+    color: #4C586F;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 55px;
+}
+
+.CHRISDetail {
+    padding-top: 20px;
+    padding-left: 21px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 23px;
+}
+
+.CHRISHeading {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    color: #131821;
+}
+
+.CHRISparagraph {
+    font-size: 18px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    color: #4C586F;
+    letter-spacing: 0.4px;
+}
+
+.DottedSvg {
+    margin-top: -23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bg2 {
+    background: linear-gradient(to bottom, #E8EAF4 100%, #FEFEFE 0%);
+    width: 100%;
+    margin: auto;
+}
+.Footer {
+   padding-top: 40px;
+    width: 100%;
+    height: 259px;
+   
+}
+
+.helpfultxt {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 38px;
+    color: #131821;
+}
+
+.FooterMain {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    gap: 155px;
+    padding-left: 23px;
+    padding-top: 95px;
+}
+
+.helpfulHeading {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 38px;
+    color: #131821;
+    padding-bottom: 13px;
+}
+
+.HelpFul {
+    margin-top: -15px;
+
+}
+
+.Policies {
+    margin-left: 95px;
+    margin-top: -15px;
+}
+
+.PoliciesHeading {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 38px;
+    color: #131821;
+    padding-bottom: 13px;
+    letter-spacing: 0.6px;
+    word-spacing: 0.4px;
+  
+}
+
+.HelpfulParagraph {
+    margin-top: 10px;
+}
+
+.PoliciesParagraph {
+    margin-top: 10px;
+}
+
+.loginpara {
+    font-size: 20px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #131821;
+    margin-top: 8px;
+}
+
+.HelpFul {
+    text-align: left;
+}
+
+.Policies {
+    text-align: left;
+}
+
+.Apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 27px;
+
+}
+ @media screen and (max-width: 1200px) {
+.main-Install {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Install {
+    width: 310px;
+    height: 302px;
+    border-radius: 16px;
+}
+
+.InstallSVG {
+    padding-top: 30px;
+    padding-left: 25px;
+
+}
+
+.installHeading {
+    margin-top: 4px;
+    padding-left: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.installpara {
+    padding-left: 25px;
+    padding-top: 8px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+   
+}
+
+}
+@media screen and (max-width: 1160px) {
+    .color {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .parentNav {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Nav {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 0px;
+        padding-top: 23px;
+    }
+
+    .TuringSEOAndIMG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        margin-left: 50px;
+    }
+
+    .TurningTxt {
         font-weight: 500;
-        line-height: 34px;
-        color: #4C586F;
+        font-size: 37px;
+        line-height: 48px;
+        letter-spacing: 1.6px;
+    }
+
+    .GPFTxtAndLOGIN {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 186px;
+        margin-left: 88px;
+    }
+
+    .GPFTxt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 53px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .GPFTxt p:hover {
+        color: #4D47C8;
+        cursor: pointer;
+    }
+
+    .Login {
+        border-radius: 32px;
+        padding: 4px 28px 6px 28px;
+    }
+
+    #Login {
+        font-weight: 400;
+        font-size: 16.5px;
+        line-height: 40px;
+        padding-left: 0px;
+        margin-top: -5px;
+        margin-left: 3px;
+        word-spacing: .6px;
+
+    }
+
+    .FixingSeo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        padding-top: 80px;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 80px;
+        padding-left: 15px;
+    }
+
+    .finally-wordpress {
+        padding-top: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 22px;
+
+    }
+
+    .Get {
+        max-width: 215px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 215px;
+        height: 55px;
+        border-radius: 32px;
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+
+    .laptopAndTXT {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+        gap: 0px;
+    }
+
+    #laptop {
+        width: 500px;
+        height: 350px;
+    }
+
+    .laptoptxt {
+        width: 445px;
+        height: 352px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        margin-top: -4px;
+        margin-left: -80px;
+    }
+
+    .Strong-SEO {
+        font-size: large;
+    }
+
+    .image-container {
+        position: relative;
+        width: 600px;
+        height: 400px;
+    }
+
+    .background-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .overlay-image {
+        position: absolute;
+        top: 103px;
+        left: 205px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Bulk {
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 60px;
+        padding-top: 90px;
+        padding-bottom: 103px;
+    }
+
+    .LinkMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .LinkMain {
+        display: flex;
+        margin-left: 15px;
+    }
+
+    #InternalLinkingIMG {
+        width: 470px;
+        height: 360px;
+    }
+
+    .LinkHeading {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 38px;
+        display: flex;
+        justify-content: left;
+        margin-top: 0px;
+    }
+
+    .Linkpara {
+        width: 470px;
+        height: 240px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32.7px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 54px;
+    }
+
+    .LinkMain1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 90px;
+    }
+
+    #link-Noormalization {
+        width: 470px;
+        height: 360px;
+    }
+
+    .Linkpara1 {
+        width: 470px;
+        height: 240px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 31.7px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 54px;
+    }
+    #link-Noormalization1 {
+        width: 470px;
+        height: 360px;
+        opacity: 0.4;
+    }
+    
+    .direct-cleaner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+        padding-top: 90px;
+    }
+    .paragraph {
+        width: 480px;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        margin-bottom: 15px;
+    }
+    .paragraph1 {
+        width: 480px;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+       
+    }
+    
+    .LinkMain2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 80px;
+    }
+    
+    #link-Noormalization2 {
+        width:470px;
+        height: 360px;
+        margin-top: -60px;
+    }
+    .direct-cleaner12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 130px;
+        padding-top: 90px;
+    }
+    #Track-Undo-IMG {
+        width: 440px;
+        height: 360px;
+        margin-left: -10px;
+        margin-top: -50px;
+    }
+    .Linkpara2 {
+        width: 510px;
+        height: 260px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 33.7px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 54px;
+    }
+    #Opt{
+        display: none;
+    }
+    .MainofOptimizing {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .ContainerOfOptimizing {
+        width: 940px;
+        margin-top: 95px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    
+    .Optimization {
+        width: 100%;
+        height: 280px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    
+    .StartOptimizingTXT {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+        margin-left: 165px;
+        margin-top: 50px;
+    }
+    
+    #StartOptimizingBtn {
+        width: 193px;
+        height: 60px;
+        padding: 14px 32px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    .Customer-Review {
+        width: 940px;
+        height: 751px;
+        margin-top: 100px;
+        border-radius: 16px;
+    }
+    
+    .Customer-ReviewTxt {
+        padding-top: 95px;
+        padding-bottom: 95px;
+        font-size: 42px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .Highly-Recommended {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .Highly-Recommended1 {
+        width: 418px;
+        height: 371px;
+        border-radius: 16px;
+    }
+    
+    .dark {
+        margin-left: -40px;
+    }
+    
+    .blue {
+        margin-right: -40px;
+    }
+    .Highly-Recommended2 {
+        width: 418px;
+        height: 371px;
+        border-radius: 16px;
+        position: relative;
+    }
+    
+    .star {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .Highly-RecommendedHeading {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 38px;
+        padding-left: 20px;
+    }
+    
+    .Highly-Recommendedparagraph {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
         padding-left: 20px;
         padding-top: 25px;
         padding-right: 55px;
-      }
-      .CHRISDetail{
+    }
+    
+    .CHRISDetail {
         padding-top: 20px;
         padding-left: 21px;
         display: flex;
         justify-content: left;
         align-items: center;
-        gap: 23px;
-      }
-
-      .CHRISHeading{
-        font-size: 24px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        gap: 13px;
+    }
+    
+    .CHRISHeading {
+        font-size: 22px;
         font-weight: 700;
         line-height: 32px;
-        color: #131821;
-      }
-      .CHRISparagraph{
-        font-size: 18px;
-        font-family: 'Future PTLight', sans-serif;
-        font-weight: 600;
-        line-height: 32px;
-        color: #4C586F;
-        letter-spacing: 0.4px;
-      }
-      .DottedSvg{
-        margin-top: -23px;
-        /* padding-top: 0px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* padding-bottom: 60px; */
-      }
-      .Footer{
-        background-image: url('Footerbg.png');
-        width:1326px;
-        height: 259px;
-      }
+    }
     
-      .helpfultxt{
-        font-size: 22px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-        font-weight: 500;
-        line-height: 38px;
-        color: #131821;
-      }
-      .FooterMain{
-        display: flex;
-        justify-content: left;
-        text-align: center;
-        gap: 210px;
-        padding-left: 60px;
-        padding-top: 95px;
-      }
-      .helpfulHeading{
-        font-size: 22px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-        font-weight: 500;
-        line-height: 38px;
-        color: #131821;
-        padding-bottom: 13px;
-      }
-      .HelpFul{
-        margin-top: -15px;
-        
-      }
-      .Policies{
-        margin-left: 40px;
-        margin-top: -15px;
-      }
+    .CHRISparagraph {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+    }
+} 
+@media screen and (max-width: 1000px) {
+    .color {
+        max-width: 1000px;
+        margin: auto;
+    }
 
-      .PoliciesHeading{
-        font-size: 22px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-        font-weight: 500;
-        line-height: 38px;
-        color: #131821;
-        padding-bottom: 13px;
-        letter-spacing: 0.6px;
-        word-spacing: 0.4px;
-        /* margin-bottom: 100px; */
-      }
-      .HelpfulParagraph{
-        margin-top: 10px;
-      }
-      .PoliciesParagraph{
-        margin-top: 10px;
-      }
+    .parentNav {
+        max-width: 1000px;
+        margin: auto;
+    }
 
-    .loginpara{
-        font-size: 20px;
-        font-family: 'Future PTLight', sans-serif;
-        font-weight: 500;
-        line-height: 32px;
-        color: #131821;
-        /* margin-top: 10px; */
-    }
-    .HelpFul{
-        text-align: left;
-    }
-    .Policies{
-        text-align: left;
-    }
-    .Apps{
+    .parent {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 16px;
-        padding-top: 27px;
-        /* margin-left: px; */
+        flex-direction: column;
     }
+
+    .Nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* gap: 370px; */
+        padding-top: 23px;
+    }
+
+    .TuringSEOAndIMG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        margin-left: 30px;
+    }
+
+    .TurningTxt {
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 48px;
+        letter-spacing: 1.6px;
+    }
+    .Hamburger{
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    #Hamburger{
+        width: 40px;
+        height: 40px;
+    }
+    .GPFTxtAndLOGIN{
+        display: none;
+    }
+  
+
+
+    .FixingSeo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        padding-top: 80px;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 65px;
+        padding-left: 35px;
+    }
+
+    .finally-wordpress {
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 22px;
+
+    }
+
+    .Get {
+        max-width: 195px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 195px;
+        height: 55px;
+        border-radius: 32px;
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+
+    .laptopAndTXT {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+        gap: 35px;
+        margin-left: -20px;
+    }
+    
+    #laptop {
+        width: 686px;
+        height: 435px;
+    }
+    
+    .laptoptxt {
+        width: 445px;
+        height: 352px;
+        font-weight: 400;
+        font-size: 18.98px;
+        line-height: 32px;
+        margin-top: -4px;
+    }
+    
+    .Strong-SEO {
+        font-size: large;
+    }
+    
+    .image-container {
+        position: relative;
+        width: 686px;
+        height: 410px;
+    }
+    
+    .background-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .overlay-image {
+        position: absolute;
+        top: 133px;
+        left: 290px;
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+
+
+
+
+    .Bulk {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 60px;
+        padding-top: 90px;
+        padding-bottom: 103px;
+    }
+
+
+    
+.LinkMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 65px;
+}
+
+.LinkMain {
+    display: flex;
+    margin-left: 15px;
+}
+
+.LinkHeading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    justify-content: left;
+    margin-top: -10px;
+}
+
+.Linkpara {
+    width: 530px;
+    height: 260px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32.7px;
+    color: #4C586F;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 54px;
+}
+
+
+.LinkMain1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+#link-Noormalization {
+    width: 502px;
+    height: 398px;
+}
+
+.Linkpara1 {
+    width: 515px;
+    height: 260px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31.7px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 54px;
+}
+
+#link-Noormalization1 {
+    width: 502px;
+    height: 398px;
+    opacity: 0.4;
+}
+
+.direct-cleaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 73px;
+    padding-top: 90px;
+}
+
+.direct-cleaner12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 160px;
+    padding-top: 90px;
+}
+
+.paragraph {
+    width: 540px;
+  
+    font-weight: 500;
+    font-size: 22px;
+   
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.paragraph1 {
+    width: 550px;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.LinkMain2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 137px;
+    padding-top: 0px;
+    margin-top: -40px;
+}
+
+#link-Noormalization2 {
+    width: 502px;
+    height: 430px;
+    margin-top: -120px;
+    margin-left: -40px;
+}
+
+.image-container1 {
+    position: relative;
+    width: 302px;
+    height: 398px;
+    top: 13px;
+    left: -89px;
+}
+
+.background-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-image1 {
+    position: absolute;
+    top: 13px;
+    left: 48px;
+    width: 502px;
+    height: 398px;
+}
+
+
+.bgAndFrontpage {
+    margin-left: 100px;
+}
+
+.image-container1 {
+    position: relative;
+    width: 510px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.background-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.foreground-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.direct-cleaner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.LinkCleaner1 {
+    margin-left: -30px;
+}
+#Track-Undo-IMG {
+    width: 510px;
+    height: 430px;
+    margin-left: -40px;
+}
+
+.Linkpara2 {
+    width: 510px;
+    height: 260px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33.7px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 54px;
+   
+}
+
+
+.MainofOptimizing {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.ContainerOfOptimizing {
+    width: 670px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+.Optimization {
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#Opt{
+    display: block;
+}
+
+#Opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 200px;
+    height: 150px;
+}
+.StartOptimizingTXT {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 0px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+#StartOptimizingBtn {
+    width: 193px;
+    height: 60px;
+    padding: 14px 32px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    margin-left: 0px;
+    border-radius: 30px;
+    margin-top: -10px;
+}
+.main-Install {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.basicAndProfessional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Highly-Recommended {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.Customer-Review {
+    width: 680px;
+    height: 751px;
+    margin-top: 100px;
+    border-radius: 16px;
+
+}
+.DottedSvg {
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Footer {
+    width: 100%;
+    height: 259px;
+}
+.FooterMain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding-left: 10px;
+    padding-top: 65px;
+}
+.helpfulHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 13px;
+}
+
+.HelpFul {
+    margin-top: 16px;
+}
+
+.Policies {
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+.PoliciesHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    padding-bottom: 13px;
+    letter-spacing: 0.6px;
+    word-spacing: 0.4px;
+  
+}
+
+.HelpfulParagraph {
+    margin-top: 10px;
+}
+
+.PoliciesParagraph {
+    margin-top: 10px;
+}
+
+.loginpara {
+    font-size: 20px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #131821;
+    margin-top: 4px;
+}
+
+.HelpFul {
+    text-align: left;
+}
+
+.Policies {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.Apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 27px;
+
+}
+
+  }
+  @media screen and (max-width: 680px) {
+
+    .color {
+        max-width: 680px;
+        margin: auto;
+    }
+
+    .parentNav {
+        max-width: 680px;
+        margin: auto;
+    }
+
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:0px;
+        padding-top: 23px;
+    }
+
+    .TuringSEOAndIMG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+    .TurningSeoIMG{
+        width: 65px;
+        height: 65px;
+    }
+    .TurningTxt {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 1.6px;
+    }
+    .Hamburger{
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    #Hamburger{
+        width: 40px;
+        height: 40px;
+    }
+    .GPFTxtAndLOGIN{
+        display: none;
+    }
+    .FixingSeo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        padding-top: 80px;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 45px;
+        padding-left: 25px;
+    }
+
+    .finally-wordpress {
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 22px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .Get {
+        max-width: 155px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 155px;
+        height: 45px;
+        border-radius: 32px;
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+
+    .laptopAndTXT {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        padding-top: 90px;
+        padding-left: 0px;
+        gap: 35px;
+        margin-left: 0px;
+        
+    }
+    
+    #laptop {
+        width: 280px;
+        height: 170px;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    
+    .laptoptxt {
+        width: 270px;
+        height: 270px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .Strong-SEO {
+        font-size: medium;
+    }
+    
+    .image-container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -110px;
+    }
+    
+    .background-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     
+    }
+    
+    .overlay-image {
+        position: absolute;
+        top: 112px;
+        left: 175px;
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .Bulk {
+        width: 280px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+
+    
+.LinkMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+#InternalLinkingIMG {
+    width: 280px;
+    height: 170px;
+}
+.LinkMain {
+    display: flex;
+    margin-left: 15px;
+}
+
+.LinkHeading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Linkpara {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4C586F;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 54px;
+}
+
+
+.LinkMain1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+#link-Noormalization {
+    width: 280px;
+    height: 170px;
+}
+
+.Linkpara1 {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 54px;
+}
+
+#link-Noormalization1 {
+    width: 280px;
+    height: 170px;
+    opacity: 0.4;
+}
+
+.direct-cleaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 33px;
+    padding-top: 90px;
+}
+
+.direct-cleaner12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+    padding-top: 40px;
+}
+
+.paragraph {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+   margin-bottom: -100px;
+}
+
+.paragraph1 {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: -45px;
+}
+
+.LinkMain2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 0px;
+    margin-top: -60px;
+}
+
+#link-Noormalization2 {
+    width: 280px;
+    height: 170px;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+
+.image-container1 {
+    position: relative;
+    width:280px;
+    height: 170px;
+    top: 13px;
+    left: -49px;
+}
+
+.background-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-image1 {
+    position: absolute;
+    top: 13px;
+    left: 48px;
+    width: 502px;
+    height: 398px;
+}
+
+
+.bgAndFrontpage {
+    margin-left: 100px;
+}
+
+.image-container1 {
+    position: relative;
+    width: 510px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.background-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.foreground-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.direct-cleaner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.LinkCleaner1 {
+    margin-left: -30px;
+}
+#Track-Undo-IMG {
+    width: 280px;
+    height: 170px;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.Linkpara2 {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 33.7px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 54px;
+   
+}
+
+
+.MainofOptimizing {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.ContainerOfOptimizing {
+    width: 280px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+.Optimization {
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#Opt{
+    display: block;
+}
+
+#Opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 200px;
+    height: 150px;
+}
+.StartOptimizingTXT {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 0px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+#StartOptimizingBtn {
+    width: 193px;
+    height: 60px;
+    padding: 14px 32px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    margin-left: 0px;
+    border-radius: 30px;
+    margin-top: -10px;
+}
+.main-Install {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.basicAndProfessional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Highly-Recommended {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.Customer-Review {
+    width: 680px;
+    height: 751px;
+    margin-top: 100px;
+    border-radius: 16px;
+
+}
+.Customer-Review {
+    width: 400px;
+    height: 751px;
+    margin-top: 100px;
+    border-radius: 16px;
+}
+
+.Customer-ReviewTxt {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+.Highly-Recommended {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+  
+}
+
+.Highly-Recommended1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.dark {
+    margin-left: -40px;
+}
+
+.blue {
+    margin-right: -40px;
+}
+.Highly-Recommended2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.star {
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+.Highly-RecommendedHeading {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-left: 20px;
+}
+
+.Highly-Recommendedparagraph {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 55px;
+}
+.CHRISDetail {
+    padding-top: 20px;
+    padding-left: 21px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}
+
+.CHRISHeading {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.CHRISparagraph {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+}
+.DottedSvg {
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Footer {
+    width: 100%;
+    height: auto;
+}
+.FooterMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    padding-left: 10px;
+    padding-top: 0px;
+   
+}
+.helpfulHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 13px;
+}
+
+.HelpFul {
+    margin-top: 16px;
+}
+
+.Policies {
+    margin-left: 0px;
+    margin-top: -15px;
+}
+
+.PoliciesHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    padding-bottom: 13px;
+    letter-spacing: 0.6px;
+    word-spacing: 0.4px;
+  
+}
+
+.HelpfulParagraph {
+    margin-top: 10px;
+}
+
+.PoliciesParagraph {
+    margin-top: 10px;
+}
+
+.loginpara {
+    font-size: 20px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #131821;
+    margin-top: 4px;
+}
+
+.HelpFul {
+    text-align: center;
+}
+
+.Policies {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.Apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 27px;
+
+}
+
+  }
+   @media screen and (max-width: 680px) {
+
+    .color {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .parentNav {
+        max-width: 480px;
+        margin: auto;
+    }
+
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:0px;
+        padding-top: 23px;
+    }
+
+    .TuringSEOAndIMG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+    .TurningSeoIMG{
+        width: 65px;
+        height: 65px;
+    }
+    .TurningTxt {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 1.6px;
+    }
+    .Hamburger{
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    #Hamburger{
+        width: 40px;
+        height: 40px;
+    }
+    .GPFTxtAndLOGIN{
+        display: none;
+    }
+    .FixingSeo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        padding-top: 80px;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 45px;
+        padding-left: 25px;
+    }
+
+    .finally-wordpress {
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 22px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .Get {
+        max-width: 155px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 155px;
+        height: 45px;
+        border-radius: 32px;
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+
+    .laptopAndTXT {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        padding-top: 90px;
+        padding-left: 0px;
+        gap: 35px;
+        margin-left: 0px;
+        
+    }
+    
+    #laptop {
+        width: 280px;
+        height: 170px;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    
+    .laptoptxt {
+        width: 270px;
+        height: 270px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .Strong-SEO {
+        font-size: medium;
+    }
+    
+    .image-container {
+        position: relative;
+        width: 300px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -110px;
+    }
+    
+    .background-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     
+    }
+    
+    .overlay-image {
+        position: absolute;
+        top: 120px;
+        left: 125px;
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .Bulk {
+        width: 280px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+
+    
+.LinkMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+#InternalLinkingIMG {
+    width: 280px;
+    height: 170px;
+}
+.LinkMain {
+    display: flex;
+    margin-left: 15px;
+}
+
+.LinkHeading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    justify-content: left;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Linkpara {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4C586F;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 54px;
+}
+
+
+.LinkMain1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+#link-Noormalization {
+    width: 280px;
+    height: 170px;
+}
+
+.Linkpara1 {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 54px;
+}
+
+#link-Noormalization1 {
+    width: 280px;
+    height: 170px;
+    opacity: 0.4;
+}
+
+.direct-cleaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 33px;
+    padding-top: 90px;
+}
+
+.direct-cleaner12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+    padding-top: 40px;
+}
+
+.paragraph {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+   margin-bottom: -100px;
+}
+
+.paragraph1 {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: -45px;
+}
+
+.LinkMain2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 0px;
+    margin-top: -60px;
+}
+
+#link-Noormalization2 {
+    width: 280px;
+    height: 170px;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+
+.image-container1 {
+    position: relative;
+    width:280px;
+    height: 170px;
+    top: 13px;
+    left: -49px;
+}
+
+.background-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-image1 {
+    position: absolute;
+    top: 13px;
+    left: 48px;
+    width: 502px;
+    height: 398px;
+}
+
+
+.bgAndFrontpage {
+    margin-left: 100px;
+}
+
+.image-container1 {
+    position: relative;
+    width: 510px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.background-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.foreground-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.direct-cleaner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.LinkCleaner1 {
+    margin-left: -30px;
+}
+#Track-Undo-IMG {
+    width: 270px;
+    height: 170px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.LinkHeading1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    justify-content: left;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.Linkpara2 {
+    width: 280px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 33.7px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 54px;
+    margin-left: 27px;
+   
+}
+
+
+.MainofOptimizing {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.ContainerOfOptimizing {
+    width: 280px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+.Optimization {
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#Opt{
+    display: block;
+}
+
+#Opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 200px;
+    height: 150px;
+}
+.StartOptimizingTXT {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 0px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+#StartOptimizingBtn {
+    width: 193px;
+    height: 60px;
+    padding: 14px 32px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    margin-left: 0px;
+    border-radius: 30px;
+    margin-top: -10px;
+}
+.main-Install {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.basicAndProfessional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Basic {
+    width: 290px;
+    height: 588px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.Professional {
+    width: 290px;
+    height: 588px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+#StartOptimizingBtn1 {
+    margin-left: 36px;
+}
+#StartOptimizingBtn2 {
+   margin-left: 30px;
+
+  
+
+}
+.Highly-Recommended {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+}
+.Customer-Review {
+    width: 400px;
+    height: 751px;
+    margin-top: 40px;
+    border-radius: 16px;
+
+}
+.Customer-Review {
+    width: 300px;
+    height: 751px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.Customer-ReviewTxt {
+    padding-top: 45px;
+    padding-bottom: 95px;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+.Highly-Recommended {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+  
+}
+
+.Highly-Recommended1 {
+    width: 290px;
+    height: 290px;
+    border-radius: 16px;
+}
+
+.dark {
+    margin-left: -40px;
+}
+
+.blue {
+    margin-right: -40px;
+}
+.Highly-Recommended2 {
+    width: 290px;
+    height: 290px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.star {
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+.Highly-RecommendedHeading {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-left: 20px;
+}
+
+.Highly-Recommendedparagraph {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 55px;
+}
+.CHRISDetail {
+    padding-top: 20px;
+    padding-left: 21px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 7px;
+}
+
+.CHRISHeading {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.CHRISparagraph {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+}
+.DottedSvg {
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Footer {
+    width: 100%;
+    height: auto;
+}
+.FooterMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    padding-left: 10px;
+    padding-top: 0px;
+   
+}
+.helpfulHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 13px;
+}
+
+.HelpFul {
+    margin-top: 16px;
+}
+
+.Policies {
+    margin-left: 0px;
+    margin-top: -15px;
+}
+
+.PoliciesHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    padding-bottom: 13px;
+    letter-spacing: 0.6px;
+    word-spacing: 0.4px;
+  
+}
+
+.HelpfulParagraph {
+    margin-top: 10px;
+}
+
+.PoliciesParagraph {
+    margin-top: 10px;
+}
+
+.loginpara {
+    font-size: 20px;
+    font-family: 'Future PTLight', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    color: #131821;
+    margin-top: 4px;
+}
+
+.HelpFul {
+    text-align: center;
+}
+
+.Policies {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.Apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 27px;
+
+}
+
+  }
