@@ -542,6 +542,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 30px;
+    /* padding-top: 10px; */
 }
 
 .Install {
@@ -818,10 +819,39 @@ ul.dotted-list li:before {
 }
 
 .blue:hover img {
-    background: blue;
+    /* background: blue; */
     cursor: pointer;
-    color: #4D47C8;
+    /* color: #4D47C8; */
+    transform: scaleX(-1);
 }
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.hover-image {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.original-image:hover + .hover-image {
+    display: block;
+}
+
+.original-image:hover {
+    opacity: 0; /* Optional: Hide the original image on hover */
+}
+
+
+
+
+
 
 .Highly-Recommended2 {
     background-color: white;
@@ -2009,6 +2039,14 @@ ul.dotted-list li:before {
     padding-top: 27px;
 
 }
+.Install {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 302px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
 
   }
   @media screen and (max-width: 680px) {
@@ -2216,7 +2254,6 @@ ul.dotted-list li:before {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    color: #4C586F;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -2642,7 +2679,6 @@ ul.dotted-list li:before {
     font-family: 'Future PTLight', sans-serif;
     font-weight: 500;
     line-height: 32px;
-    color: #131821;
     margin-top: 4px;
 }
 
@@ -2662,6 +2698,13 @@ ul.dotted-list li:before {
     gap: 16px;
     padding-top: 27px;
 
+}
+.Install {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 302px;
+    border-radius: 16px;
+    margin-top: 20px;
 }
 
   }
@@ -2847,7 +2890,7 @@ ul.dotted-list li:before {
 }
 #InternalLinkingIMG {
     width: 270px;
-    height: 165px;
+    height: 265px;
 }
 .LinkMain {
     display: flex;
@@ -2892,7 +2935,7 @@ ul.dotted-list li:before {
 
 #link-Noormalization {
     width: 270px;
-    height: 165px;
+    height: 265px;
     margin-top: -20px;
 }
 
@@ -2912,7 +2955,7 @@ ul.dotted-list li:before {
 
 #link-Noormalization1 {
     width: 270px;
-    height: 165px;
+    height: 265px;
     opacity: 0.4;
 }
 
@@ -2976,7 +3019,7 @@ ul.dotted-list li:before {
 
 #link-Noormalization2 {
     width: 280px;
-    height: 170px;
+    height: 270px;
     margin-top: -30px;
     margin-left: -40px;
 }
@@ -3046,7 +3089,7 @@ ul.dotted-list li:before {
 }
 #Track-Undo-IMG {
     width: 263px;
-    height: 170px;
+    height: 270px;
     margin-left: -24.5px;
     margin-top: -30px;
 }
@@ -3381,6 +3424,14 @@ ul.dotted-list li:before {
     padding-top: 27px;
     margin-left: 16px;
 
+}
+
+.Install {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 302px;
+    border-radius: 16px;
+    margin-top: 20px;
 }
 
   }
